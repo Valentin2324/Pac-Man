@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7751379318037750578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3167927448224971095}
+  - component: {fileID: 3004310242009819272}
+  m_Layer: 0
+  m_Name: SpawnItem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3167927448224971095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7751379318037750578}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3004310242009819272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7751379318037750578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d10e1ff5c41c3f34c8303ed46eb621a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnItem
+  itemPrefab: {fileID: 8926289768913276926, guid: 0db73c205b32a5548af8d901bad681e4, type: 3}
+  items:
+  - {fileID: 8926289768913276926, guid: 0db73c205b32a5548af8d901bad681e4, type: 3}
+  - {fileID: 8926289768913276926, guid: dedb0766fba41524caae7504b203ceac, type: 3}
+  - {fileID: 8926289768913276926, guid: 4baab37ebee97454e8a0b9725fc5f312, type: 3}
+  - {fileID: 8926289768913276926, guid: 2a369990ff8e6244ea93e844eadd14e7, type: 3}
+  - {fileID: 8926289768913276926, guid: b31ebffcafcf01243b348a097ed9a2d3, type: 3}
+  - {fileID: 8926289768913276926, guid: 4c827309bed99464eaed0e6b5949871c, type: 3}
+  - {fileID: 8926289768913276926, guid: a2371955b33d0a64880a5f9b1f9cf710, type: 3}
+  - {fileID: 8926289768913276926, guid: a30e2364767d1e24cb1bc0b67b19c8ae, type: 3}
+  itemSpawnPosition: {fileID: 8001356862733900625, guid: 0db73c205b32a5548af8d901bad681e4, type: 3}
